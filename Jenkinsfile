@@ -79,7 +79,7 @@ pipeline{
 		steps{
 			script{
 				script {
-    			def server = Artifactory.server 'Artifactory'
+    			def server = Artifactory.server 'Jfrog'
 			def uploadSpec = '''{
        				 "files": [
 	    			{
