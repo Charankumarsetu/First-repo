@@ -37,6 +37,6 @@ jobs:
     - name: Build and Test
       run: |
        mvn clean verify
-       echo " The build is success"
+       echo " Don't listen to anyone it is you vs you :)"
     # Success message
     # echo "The build is successful"
